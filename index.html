@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<h1>Asus</h1>
+<button onclick="asus.turnOn()">turn on</button>
+<button onclick="asus.turnOff()">turn off</button>
+<button onclick="asus.getBattery()">show battery</button>
+<button onclick="asus.charge()"> charge battery</button>
+<button onclick="asus.receiveMess(xiaomi)">inbox</button>
+<button onclick="asus.sentMess()">sent</button>
+<button onclick="asus.sendMess(xiaomi)">send</button>
+<button onclick="asus.writeMess()">write message</button>
+<p id="screen_asus"></p>
+<hr>
+
+<h1>Xiaomi</h1>
+<button onclick="xiaomi.turnOn()">turn on</button>
+<button onclick="xiaomi.turnOff()">turn off</button>
+<button onclick="xiaomi.getBattery()">show battery</button>
+<button onclick="xiaomi.charge()"> charge battery</button>
+<button onclick="xiaomi.receiveMess(asus)">inbox</button>
+<button onclick="xiaomi.sentMess()">sent</button>
+<button onclick="xiaomi.sendMess(asus)">send</button>
+<button onclick="xiaomi.writeMess()">write message</button>
+<p id="screen_xiaomi"></p>
+
+<script src="mobile.js"></script>
+
+</body>
+</html>
